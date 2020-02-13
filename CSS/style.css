@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+#kotlinid {
+    width: 250px;
+    height: 288px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+#firebaseid {
+    width: 250px;
+    height: 288px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+#c#id {
+    width: 250px;
+    height: 288px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+#phytonid {
+    width: 250px;
+    height: 288px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+#sqlserverid {
+    width: 250px;
+    height: 288px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 1em;
+}
+
+.container-logo {
+    padding: 1.25em 0;
+}
+
+.code-ando {
+    max-width: 75em;
+    margin: 0 auto;
+}
+
+.barra {
+    background-color: CC3300;
+    overflow: hidden;
+}
+
+.container-barra {
+    padding: 1.25em 0;
+}
+
+.Container-Contenido ::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.main-contenido {
+    margin: 2.5em;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .main-contenido {
+        width: 70%;
+        float: left;
+        padding: 0 3.75em 0 0;
+    }
+    .barra {
+        width: 30%;
+        float: right;
+        padding: 0;
+        margin-top: 2.5em;
+    }
+}
+
+.container-barra {
+    background-color: 993366;
+}
